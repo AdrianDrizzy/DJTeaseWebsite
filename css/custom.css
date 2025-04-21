@@ -1,0 +1,243 @@
+/* Custom styling for DJ Tease website */
+
+/* Hero section background */
+.hero.spad {
+    background-image: url('../img/hero/hero-bg.jpg');
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/* Hero text spacing */
+.hero__text {
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+/* Logo and header styling */
+.logo-image {
+    filter: drop-shadow(0 0 3px rgba(0,0,0,0.2));
+    background: transparent !important;
+    max-width: 100%;
+}
+
+.header__logo .logo-image {
+    height: 80px !important;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    background: transparent;
+}
+
+.offcanvas__logo .logo-image {
+    height: 60px !important;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer__logo .logo-image {
+    max-width: 150px;
+}
+
+.header__logo span, .offcanvas__logo span {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.header__logo span {
+    font-size: 36px;
+}
+
+.offcanvas__logo span {
+    font-size: 28px;
+}
+
+/* Call To Action section styling */
+.callto.spad {
+    padding: 100px 0;
+    position: relative;
+    background-position: center center;
+}
+
+.callto.spad .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.callto.spad .container {
+    position: relative;
+    z-index: 2;
+}
+
+.callto__text {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.callto__text h2 {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.callto__text p {
+    font-size: 18px;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.callto__text .primary-btn {
+    font-weight: 600;
+    padding: 15px 30px;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer styling */
+.footer {
+    padding: 50px 0;
+    background-position: center center;
+    position: relative;
+}
+
+.footer:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(28, 28, 60, 0.9);
+    z-index: 1;
+}
+
+.footer .container {
+    position: relative;
+    z-index: 2;
+}
+
+.footer__logo a {
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.footer__logo a:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.footer__logo h3 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.footer__widget p {
+    color: #ebebeb;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer__copyright__text {
+    margin-top: 15px;
+    color: #a0a0a0 !important;
+    font-size: 14px !important;
+}
+
+.footer__social {
+    text-align: right;
+}
+
+.footer__social a {
+    display: inline-block;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.footer__social a:hover {
+    color: #6763fd;
+    transform: translateX(-5px);
+}
+
+.footer__social i, .footer__social svg {
+    width: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/* TikTok SVG icon styling */
+.tiktok-icon {
+    position: relative;
+    width: 12px;
+    height: 12px;
+}
+
+/* About section special styles */
+.about__item.highlight {
+    background-color: #1c2841;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.about__item.highlight h6 {
+    color: white;
+}
+
+.about__item.highlight p {
+    color: white;
+}
+
+.social-button {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.social-button i {
+    margin-right: 8px;
+}
+
+/* Responsive styles for mobile */
+@media only screen and (max-width: 767px) {
+    .footer__logo, .footer__widget, .footer__social {
+        text-align: center !important;
+        margin-bottom: 20px;
+    }
+    
+    .footer__social a {
+        margin: 0 15px;
+    }
+}
+
+/* About pic styling */
+.about__pic img {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+} 

@@ -21,82 +21,10 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
     
     <!-- Custom fixes for background image -->
-    <style>
-        .hero.spad {
-            background-image: url('img/hero/hero-bg.jpg');
-            background-size: cover;
-            background-position: center 20%; /* Adjusted to better show the face */
-            background-repeat: no-repeat;
-            position: relative;
-            background-attachment: fixed; /* Keeps the image in place while scrolling */
-        }
-        
-        /* Add spacing to make sure content doesn't obscure the face */
-        .hero__text {
-            padding-left: 0;
-            margin-top: 30px;
-        }
-        
-        /* Logo styling to remove background */
-        .logo-image {
-            /* Removed mix-blend-mode and simplified filters for better compatibility */
-            filter: drop-shadow(0 0 3px rgba(0,0,0,0.2));
-            background: transparent !important;
-            max-width: 100%;
-        }
-        
-        /* Additional style for header logo to make it stand out */
-        .header__logo .logo-image {
-            height: 80px !important;
-        }
-        
-        /* Mobile logo sizing */
-        .offcanvas__logo .logo-image {
-            height: 60px !important;
-        }
-
-        /* Call To Action styling */
-        .callto.spad {
-            padding: 100px 0;
-            position: relative;
-        }
-        
-        .callto.spad .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(0, 0, 0, 0.4);
-        }
-        
-        .callto__text {
-            text-align: center;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        
-        .callto__text h2 {
-            font-weight: 700;
-            color: white;
-            margin-bottom: 20px;
-        }
-        
-        .callto__text p {
-            font-size: 18px;
-            color: white;
-            max-width: 800px;
-            margin: 0 auto 30px;
-        }
-        
-        .callto__text .primary-btn {
-            font-weight: 600;
-            padding: 15px 30px;
-            font-size: 16px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-        }
-    </style>
+    <!-- Styles moved to custom.css -->
 </head>
 
 <body>
@@ -116,8 +44,8 @@
         </div>
         <div class="offcanvas__logo">
             <a href="index.html">
-                <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image" style="height: 60px; margin-right: 10px; display: inline-block; vertical-align: middle;">
-                <span style="font-size: 28px; font-weight: 900; color: white; text-decoration: none; display: inline-block; vertical-align: middle;">DJ TEASE</span>
+                <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image">
+                <span>DJ TEASE</span>
             </a>
         </div>
         <div id="mobile-menu-wrap"></div>
@@ -138,8 +66,8 @@
                 <div class="col-lg-8">
                     <div class="header__logo">
                         <a href="index.html">
-                            <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image" style="height: 80px; margin-right: 15px; display: inline-block; vertical-align: middle; background: transparent;">
-                            <span style="font-size: 36px; font-weight: 900; color: white; text-decoration: none; display: inline-block; vertical-align: middle;">DJ TEASE</span>
+                            <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image">
+                            <span>DJ TEASE</span>
                         </a>
                     </div>
                     <nav class="header__menu mobile-menu">
@@ -274,15 +202,15 @@
     <!-- Contact Section End -->
 
     <!-- Call To Action Section Begin -->
-    <section class="callto spad set-bg" data-setbg="img/breadcrumb-bg.png" style="background-position: center center; position: relative;">
-        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.4);"></div>
-        <div class="container" style="position: relative; z-index: 2;">
+    <section class="callto spad set-bg" data-setbg="img/breadcrumb-bg.png">
+        <div class="overlay"></div>
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="callto__text" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                        <h2 style="font-weight: 700; color: white; margin-bottom: 20px;">Book DJ Tease For Your Event</h2>
-                        <p style="font-size: 18px; color: white; max-width: 800px; margin: 0 auto 30px;">Looking for a trailblazing DJ known for electrifying Amapiano and Afro-house sets? Let DJ Tease bring his unforgettable stage presence to your next event!</p>
-                        <a href="contact.html" class="primary-btn" style="font-weight: 600; padding: 15px 30px; font-size: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);">Get In Touch</a>
+                    <div class="callto__text">
+                        <h2>Book DJ Tease For Your Event</h2>
+                        <p>Looking for a trailblazing DJ known for electrifying Amapiano and Afro-house sets? Let DJ Tease bring his unforgettable stage presence to your next event!</p>
+                        <a href="contact.html" class="primary-btn">Get In Touch</a>
                     </div>
                 </div>
             </div>
@@ -291,23 +219,23 @@
     <!-- Call To Action Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer set-bg" data-setbg="img/breadcrumb-bg2.JPG" style="background-image: url('img/breadcrumb-bg2.JPG');">
+    <footer class="footer set-bg" data-setbg="img/breadcrumb-bg2.JPG">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <div class="footer__widget">
                         <div class="footer__logo">
                             <a href="#">
-                                <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image" style="max-width: 150px;">
-                                <h3 style="color: #fff; margin-top: 10px; font-size: 24px;">DJ TEASE</h3>
+                                <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image">
+                                <h3>DJ TEASE</h3>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="footer__widget">
-                        <p style="color: #ebebeb; margin-bottom: 10px; font-size: 15px;">For booking inquiries: DJTEASE01@GMAIL.COM</p>
-                        <p class="footer__copyright__text" style="margin-top: 15px; color: #a0a0a0; font-size: 14px;">Copyright © 
+                        <p>For booking inquiries: DJTEASE01@GMAIL.COM</p>
+                        <p class="footer__copyright__text">Copyright © 
                             <script>
                                 document.write(new Date().getFullYear());
                             </script> All rights reserved | DJ Tease
@@ -321,96 +249,13 @@
                         <a href="#" target="_blank" rel="noopener"><i class="fa fa-spotify"></i></a>
                         <a href="https://www.instagram.com/deejay_tease/?hl=en" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
                         <a href="https://www.youtube.com/@DeejayTease" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i></a>
-                        <a href="https://www.tiktok.com/@djtease1" target="_blank" rel="noopener" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 448 512" fill="currentColor"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a>
+                        <a href="https://www.tiktok.com/@djtease1" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" class="tiktok-icon" viewBox="0 0 448 512" fill="currentColor"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Footer Section End -->
-
-    <!-- Enhanced Footer Styling -->
-    <style>
-        /* Enhanced footer styling */
-        .footer {
-            padding: 50px 0;
-            background-position: center center;
-            position: relative;
-        }
-        
-        .footer:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(28, 28, 60, 0.9);
-            z-index: 1;
-        }
-        
-        .footer .container {
-            position: relative;
-            z-index: 2;
-        }
-        
-        .footer__logo a {
-            display: inline-block;
-            transition: all 0.3s ease;
-        }
-        
-        .footer__logo a:hover {
-            transform: scale(1.05);
-            text-shadow: 0 0 10px rgba(255,255,255,0.5);
-        }
-        
-        .footer__widget p {
-            color: #ebebeb;
-            margin-bottom: 10px;
-            font-size: 15px;
-        }
-        
-        .footer__copyright__text {
-            margin-top: 15px;
-            color: #a0a0a0 !important;
-            font-size: 14px !important;
-        }
-        
-        .footer__social {
-            text-align: right;
-        }
-        
-        .footer__social a {
-            display: inline-block;
-            color: white;
-            margin-bottom: 10px;
-            font-size: 15px;
-            transition: all 0.3s ease;
-            text-decoration: none;
-        }
-        
-        .footer__social a:hover {
-            color: #6763fd;
-            transform: translateX(-5px);
-        }
-        
-        .footer__social i {
-            width: 20px;
-            text-align: center;
-            margin-right: 5px;
-        }
-        
-        @media (max-width: 767px) {
-            .footer__logo, .footer__widget, .footer__social {
-                text-align: center !important;
-                margin-bottom: 20px;
-            }
-            
-            .footer__social a {
-                margin: 0 15px;
-            }
-        }
-    </style>
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
