@@ -3,29 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="DJ Tease - Professional DJ Services">
-    <meta name="keywords" content="DJ Tease, DJ, music, events, mixes, electronic music, club music">
+    <meta name="description" content="DJ Tease - Professional DJ Based in South Africa">
+    <meta name="keywords" content="DJ Tease, DJ, music, mixes, amapiano, afro house">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DJ Tease | About</title>
-    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <title>About | DJ Tease</title>
+    <link rel="shortcut icon" href="img/logo2.png" type="image/png">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
     
     <!-- Custom fixes for background image -->
     <style>
         .hero.spad {
-            background-image: url('img/hero/hero-bg.jpg');
+            background-image: url('/img/hero/hero-bg.jpg');
             background-size: cover;
             background-position: center 20%; /* Adjusted to better show the face */
             background-repeat: no-repeat;
@@ -41,8 +41,8 @@
         
         /* Logo styling to remove background */
         .logo-image {
-            mix-blend-mode: multiply; /* Helps remove white backgrounds */
-            filter: brightness(1.3) contrast(1.2) drop-shadow(0 0 3px rgba(0,0,0,0.2)); /* Enhances visibility against dark backgrounds */
+            /* Removed mix-blend-mode and simplified filters for better compatibility */
+            filter: drop-shadow(0 0 3px rgba(0,0,0,0.2));
             background: transparent !important;
             max-width: 100%;
         }
@@ -70,13 +70,13 @@
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__search">
             <form action="#">
-               
+                <input type="text" placeholder="Search" aria-label="Search">
                 <button type="submit" title="Search"><i class="fa fa-search"></i></button>
             </form>
         </div>
         <div class="offcanvas__logo">
-            <a href="./index.html">
-                <img src="img/logo.jpg" alt="DJ Tease Logo" class="logo-image" style="height: 60px; margin-right: 10px; display: inline-block; vertical-align: middle;">
+            <a href="index.html">
+                <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image" style="height: 60px; margin-right: 10px; display: inline-block; vertical-align: middle;">
                 <span style="font-size: 28px; font-weight: 900; color: white; text-decoration: none; display: inline-block; vertical-align: middle;">DJ TEASE</span>
             </a>
         </div>
@@ -97,24 +97,27 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="header__logo">
-                        <a href="./index.html">
-                            <img src="img/logo.jpg" alt="DJ Tease Logo" class="logo-image" style="height: 80px; margin-right: 15px; display: inline-block; vertical-align: middle; background: transparent;">
+                        <a href="index.html">
+                            <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image" style="height: 80px; margin-right: 15px; display: inline-block; vertical-align: middle; background: transparent;">
                             <span style="font-size: 36px; font-weight: 900; color: white; text-decoration: none; display: inline-block; vertical-align: middle;">DJ TEASE</span>
                         </a>
                     </div>
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./about.html">About</a></li>
-                            <li><a href="./episodes.html">Mixes</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="about.html">About</a></li>
+                            <li><a href="episodes.html">Mixes</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="col-lg-4">
                     <div class="header__right">
                         <div class="header__right__search">
-                           
+                            <form action="#">
+                                <input type="text" placeholder="Search" aria-label="Search">
+                                <button type="submit" title="Search"><i class="fa fa-search"></i></button>
+                            </form>
                         </div>
                         <div class="header__right__social">
                             <a href="https://www.facebook.com/profile.php?id=61566904907861" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
@@ -133,7 +136,7 @@
     <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero spad set-bg" data-setbg="img/About.jpg">
+    <section class="hero spad set-bg" data-setbg="/img/hero/hero-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -159,7 +162,7 @@
                     <div class="breadcrumb__text">
                         <h2>About</h2>
                         <div class="breadcrumb__links">
-                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <a href="index.html"><i class="fa fa-home"></i> Home</a>
                             <span>About</span>
                         </div>
                     </div>
@@ -178,7 +181,7 @@
                         <span>DJ Tease</span>
                         <h2>About</h2>
                         <p>DJ Tease is a trailblazing DJ and performer known for his electrifying Amapiano and Afro-house sets.</p>
-                        <a href="./contact.html" class="primary-btn">Book Now</a>
+                        <a href="contact.html" class="primary-btn">Book Now</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -228,7 +231,7 @@
                     <div class="callto__text" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
                         <h2 style="font-weight: 700; color: white; margin-bottom: 20px;">Book DJ Tease For Your Event</h2>
                         <p style="font-size: 18px; color: white; max-width: 800px; margin: 0 auto 30px;">Looking for a trailblazing DJ known for electrifying Amapiano and Afro-house sets? Let DJ Tease bring his unforgettable stage presence to your next event!</p>
-                        <a href="./contact.html" class="primary-btn" style="font-weight: 600; padding: 15px 30px; font-size: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);">Get In Touch</a>
+                        <a href="contact.html" class="primary-btn" style="font-weight: 600; padding: 15px 30px; font-size: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);">Get In Touch</a>
                     </div>
                 </div>
             </div>
@@ -311,7 +314,7 @@
                     <div class="footer__widget">
                         <div class="footer__logo">
                             <a href="#">
-                                <img src="img/logo.jpg" alt="DJ Tease Logo" class="logo-image" style="max-width: 150px;">
+                                <img src="img/logo2.png" alt="DJ Tease Logo" class="logo-image" style="max-width: 150px;">
                                 <h3 style="color: #fff; margin-top: 10px; font-size: 24px;">DJ TEASE</h3>
                             </a>
                         </div>
