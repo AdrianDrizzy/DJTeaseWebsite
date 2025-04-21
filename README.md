@@ -1,19 +1,41 @@
-<h1>MEGAPOD THEME</h1>
+# DJ Tease Website
 
-<p>MEGAPOD is a modern and trendy free music streaming website template</p>
+A professional website for DJ Tease, showcasing his music mixes, performances, booking information, and contact details.
 
-<h2>Developed With<h2>
-  <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Bootstrap</li>
-  </ul>
-  <h1>Silent Features</h1>
-  <ul>
-  <li>Minimal,unique and dynamic design.</li>
-  <li>Contains Unique CSS effects.</li>
-  <li>A lot of sections are described in this template.</li>
-  <li>Structured using pure CSS grid layout.</li>
-  </ul>
-  <h1>Project Preview:</h1>
-(https://hamzaashfaq01.github.io/MegaPod/).
+## Features
+
+- Modern and responsive design
+- Music player integration
+- YouTube video embedding
+- Social media connections
+- Contact form for bookings
+- Dedicated sections for mixes and music
+
+## Developed With
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- jQuery
+- Various JS plugins (mixitup, jplayer, etc.)
+
+## Sections
+
+- Home page with featured tracks
+- About DJ Tease
+- Mixes collection
+- Contact information
+- Booking details
+
+## Design Features
+
+- Custom animations
+- Responsive layout
+- Professional color scheme
+- Mobile-optimized interface
+- Integrated social media
+
+## Contact
+
+For bookings: DJTEASE01@GMAIL.COM
