@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DJ Tease - Professional DJ Services">
+    <meta name="keywords" content="DJ Tease, DJ, music, events, mixes, electronic music, club music">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DJ Tease | About</title>
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <!-- Custom fixes for background image -->
+    <style>
+        .hero.spad {
+            background-image: url('img/hero/hero-bg.jpg');
+            background-size: cover;
+            background-position: center 20%; /* Adjusted to better show the face */
+            background-repeat: no-repeat;
+            position: relative;
+            background-attachment: fixed; /* Keeps the image in place while scrolling */
+        }
+        
+        /* Add spacing to make sure content doesn't obscure the face */
+        .hero__text {
+            padding-left: 0;
+            margin-top: 30px;
+        }
+        
+        /* Logo styling to remove background */
+        .logo-image {
+            mix-blend-mode: multiply; /* Helps remove white backgrounds */
+            filter: brightness(1.3) contrast(1.2) drop-shadow(0 0 3px rgba(0,0,0,0.2)); /* Enhances visibility against dark backgrounds */
+            background: transparent !important;
+            max-width: 100%;
+        }
+        
+        /* Additional style for header logo to make it stand out */
+        .header__logo .logo-image {
+            height: 80px !important;
+        }
+        
+        /* Mobile logo sizing */
+        .offcanvas__logo .logo-image {
+            height: 60px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__search">
+            <form action="#">
+               
+                <button type="submit" title="Search"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="offcanvas__logo">
+            <a href="./index.html">
+                <img src="img/logo.jpg" alt="DJ Tease Logo" class="logo-image" style="height: 60px; margin-right: 10px; display: inline-block; vertical-align: middle;">
+                <span style="font-size: 28px; font-weight: 900; color: white; text-decoration: none; display: inline-block; vertical-align: middle;">DJ TEASE</span>
+            </a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="img/logo.jpg" alt="DJ Tease Logo" class="logo-image" style="height: 80px; margin-right: 15px; display: inline-block; vertical-align: middle; background: transparent;">
+                            <span style="font-size: 36px; font-weight: 900; color: white; text-decoration: none; display: inline-block; vertical-align: middle;">DJ TEASE</span>
+                        </a>
+                    </div>
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="./about.html">About</a></li>
+                            <li><a href="./episodes.html">Mixes</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4">
+                    <div class="header__right">
+                        <div class="header__right__search">
+                           
+                        </div>
+                        <div class="header__right__social">
+                            <a href="https://www.facebook.com/profile.php?id=61566904907861" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+                            <a href="https://music.apple.com/us/artist/dj-tease/1610145163" target="_blank" rel="noopener"><i class="fa fa-apple"></i></a>
+                            <a href="#" target="_blank" rel="noopener"><i class="fa fa-spotify"></i></a>
+                            <a href="https://www.instagram.com/deejay_tease/?hl=en" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@DeejayTease" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.tiktok.com/@djtease1" target="_blank" rel="noopener" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 448 512" fill="currentColor"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero spad set-bg" data-setbg="img/About.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero__text">
+                        <h5><span class="icon_profile"></span> Meet DJ Tease</h5>
+                        <h1>Trailblazing Amapiano & Afro-house DJ</h1>
+                        <a href="#about-content" class="primary-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Right column intentionally left empty to make space for the background image -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <!-- <section class="hero spad set-bg" data-setbg="img/hero/hero-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h2>About</h2>
+                        <div class="breadcrumb__links">
+                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <span>About</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Breadcrumb Section End -->
+
+    <!-- About Section Begin -->
+    <section class="about spad" id="about-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about__text">
+                        <span>DJ Tease</span>
+                        <h2>About</h2>
+                        <p>DJ Tease is a trailblazing DJ and performer known for his electrifying Amapiano and Afro-house sets.</p>
+                        <a href="./contact.html" class="primary-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about__item">
+                        <h6>CAREER START & BACKGROUND</h6>
+                        <p>DJ Tease has been a force in the music industry for over a decade, carving out a unique space in the Amapiano and Afro-house scenes. His journey began in Cape Town, where his exceptional talent behind the decks earned him victory in a DJ competition, launching his career. From that moment, he dedicated himself to mastering his craft, refining his sound, and building a brand that fuses music, culture, and performance art.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about__item">
+                        <h6>ACHIEVEMENTS & UNIQUE STYLE</h6>
+                        <p>With a signature look featuring a distinctive mask and traditional hat, he blends culture, mystery, and music to create an unforgettable stage presence. His YouTube channel has amassed over 11 million views, solidifying his reputation as a cutting-edge artist who fuses live instrumentation with high-energy mixing. In 2023, he won the prestigious People's Choice Award, with performances across South Africa and internationally.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-12">
+                    <div class="about__item" style="background-color: #1c2841; color: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.2);">
+                        <h6 style="color: white;">SOCIAL MEDIA & BOOKING</h6>
+                        <p>WITH A RAPIDLY GROWING DIGITAL PRESENCE, DJ TEASE BOASTS OVER 80,000 YOUTUBE SUBSCRIBERS, 73,000 TIKTOK SUBSCRIBERS, AND MORE THAN 14,000 INSTAGRAM FOLLOWERS. HIS ABILITY TO CONNECT WITH AUDIENCES BOTH ONLINE AND IN LIVE PERFORMANCES CONTINUES TO FUEL HIS RISE IN THE INDUSTRY WITH HIS YOUTUBE CHANNEL AVERAGE 5K VIEWS PER DAY.</p>
+                        <p>BOOKING EMAIL: DJTEASE01@GMAIL.COM</p>
+                        <div style="margin-top: 20px;">
+                            <a href="https://www.youtube.com/@DeejayTease" target="_blank" rel="noopener" class="social-button"><i class="fa fa-youtube-play"></i> DJ TEASE</a>
+                            <a href="https://www.instagram.com/deejay_tease/?hl=en" target="_blank" rel="noopener" class="social-button"><i class="fa fa-instagram"></i> DEEJAY_TEASE</a>
+                            <a href="https://www.tiktok.com/@djtease1" target="_blank" rel="noopener" class="social-button"><i class="fa fa-music"></i> @DJTEASE1</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about__pic">
+                        <img src="img/About2.PNG" alt="" style="max-width: 50%; margin: 0 auto; display: block;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Call To Action Section Begin -->
+    <section class="callto spad set-bg" data-setbg="img/breadcrumb-bg.png" style="background-position: center center; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.4);"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="callto__text" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                        <h2 style="font-weight: 700; color: white; margin-bottom: 20px;">Book DJ Tease For Your Event</h2>
+                        <p style="font-size: 18px; color: white; max-width: 800px; margin: 0 auto 30px;">Looking for a trailblazing DJ known for electrifying Amapiano and Afro-house sets? Let DJ Tease bring his unforgettable stage presence to your next event!</p>
+                        <a href="./contact.html" class="primary-btn" style="font-weight: 600; padding: 15px 30px; font-size: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
+
+    <!-- Team Section Begin -->
+   <!--  <section class="team spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Featured Guests</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="img/team/team-1.jpg" alt="">
+                        <h4>Alfred Day</h4>
+                        <span>PRODUCER</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="img/team/team-2.jpg" alt="">
+                        <h4>Jayden White</h4>
+                        <span>Drummer</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="img/team/team-3.jpg" alt="">
+                        <h4>Vincent Reid</h4>
+                        <span>Enterpreneur</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Featured Collaborators</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="img/team/team-1.jpg" alt="">
+                        <h4>Alex Morgan</h4>
+                        <span>SOUND ENGINEER</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="img/team/team-2.jpg" alt="">
+                        <h4>Sara Lawrence</h4>
+                        <span>VOCALIST</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="img/team/team-3.jpg" alt="">
+                        <h4>Michael Chen</h4>
+                        <span>PRODUCER</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Team Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/breadcrumb-bg2.jpg" style="background-image: url('img/breadcrumb-bg2.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer__widget">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="img/logo.jpg" alt="DJ Tease Logo" class="logo-image" style="max-width: 150px;">
+                                <h3 style="color: #fff; margin-top: 10px; font-size: 24px;">DJ TEASE</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="footer__widget">
+                        <p style="color: #ebebeb; margin-bottom: 10px; font-size: 15px;">For booking inquiries: DJTEASE01@GMAIL.COM</p>
+                        <p class="footer__copyright__text" style="margin-top: 15px; color: #a0a0a0; font-size: 14px;">Copyright © 
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | DJ Tease
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/profile.php?id=61566904907861" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+                        <a href="https://music.apple.com/us/artist/dj-tease/1610145163" target="_blank" rel="noopener"><i class="fa fa-apple"></i></a>
+                        <a href="#" target="_blank" rel="noopener"><i class="fa fa-spotify"></i></a>
+                        <a href="https://www.instagram.com/deejay_tease/?hl=en" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@DeejayTease" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i></a>
+                        <a href="https://www.tiktok.com/@djtease1" target="_blank" rel="noopener" style="position: relative;"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 448 512" fill="currentColor"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <style>
+        /* Enhanced footer styling */
+        .footer {
+            padding: 50px 0;
+            background-position: center center;
+            position: relative;
+        }
+        
+        .footer:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(28, 28, 60, 0.9);
+            z-index: 1;
+        }
+        
+        .footer .container {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .footer__logo a {
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        
+        .footer__logo a:hover {
+            transform: scale(1.05);
+            text-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+        
+        .footer__widget p {
+            color: #ebebeb;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        
+        .footer__copyright__text {
+            margin-top: 15px;
+            color: #a0a0a0 !important;
+            font-size: 14px !important;
+        }
+        
+        .footer__social {
+            text-align: right;
+        }
+        
+        .footer__social a {
+            display: inline-block;
+            color: white;
+            margin-bottom: 10px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .footer__social a:hover {
+            color: #6763fd;
+            transform: translateX(-5px);
+        }
+        
+        .footer__social i {
+            width: 20px;
+            text-align: center;
+            margin-right: 5px;
+        }
+        
+        @media (max-width: 767px) {
+            .footer__logo, .footer__widget, .footer__social {
+                text-align: center !important;
+                margin-bottom: 20px;
+            }
+            
+            .footer__social a {
+                margin: 0 15px;
+            }
+        }
+    </style>
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Music Plugin -->
+    <script src="js/jquery.jplayer.min.js"></script>
+    <script src="js/jplayerInit.js"></script>
+    
+    <!-- Add CSS for animations -->
+    <style>
+        /* Highlight text styling */
+        .highlight-text {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-text:after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: #6763fd;
+        }
+        
+        /* Card styling */
+        .about__item {
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            padding: 30px;
+            background-color: #f8f9fa;
+            height: 100%;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .about__item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .card-blue:hover {
+            background-color: #4967b9 !important;
+        }
+        
+        /* Social button styling */
+        .social-button {
+            display: inline-block;
+            margin: 10px 15px 10px 0;
+            padding: 10px 20px;
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .social-button:hover {
+            background-color: #6763fd;
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        /* Animation classes */
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+        
+        .animate-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Animation variations */
+        [data-animation="fade-in"] {
+            transform: translateY(0) scale(0.95);
+        }
+        
+        [data-animation="fade-in"].animate-visible {
+            transform: translateY(0) scale(1);
+        }
+        
+        [data-animation="slide-up"] {
+            transform: translateY(30px);
+        }
+        
+        [data-animation="slide-up"].animate-visible {
+            transform: translateY(0);
+        }
+    </style>
+</body>
+
+</html>

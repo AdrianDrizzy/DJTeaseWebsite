@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DJ Tease - Professional DJ Services">
+    <meta name="keywords" content="DJ Tease, DJ, music, events, mixes, electronic music, club music">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DJ Tease | Blog</title>
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <!-- Custom fixes for background image -->
+    <style>
+        .hero.spad {
+            background-image: url('img/hero/hero-bg.jpg');
+            background-size: cover;
+            background-position: center 32%; /* Adjusted to better show the face */
+            background-repeat: no-repeat;
+            position: relative;
+            background-attachment: fixed; /* Keeps the image in place while scrolling */
+        }
+        
+        /* Add spacing to make sure content doesn't obscure the face */
+        .hero__text {
+            padding-left: 0;
+            margin-top: 30px;
+        }
+        
+        /* Logo styling to remove background */
+        .logo-image {
+            mix-blend-mode: multiply; /* Helps remove white backgrounds */
+            filter: brightness(1.3) contrast(1.2) drop-shadow(0 0 3px rgba(0,0,0,0.2)); /* Enhances visibility against dark backgrounds */
+            background: transparent !important;
+            max-width: 100%;
+        }
+        
+        /* Additional style for header logo to make it stand out */
+        .header__logo .logo-image {
+            height: 80px !important;
+        }
+        
+        /* Mobile logo sizing */
+        .offcanvas__logo .logo-image {
+            height: 60px !important;
+        }
+
+        /* Call To Action styling */
+        .callto.spad {
+            padding: 100px 0;
+            position: relative;
+        }
+        
+        .callto.spad .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        
+        .callto__text {
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .callto__text h2 {
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+        }
+        
+        .callto__text p {
+            font-size: 18px;
+            color: white;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        .callto__text .primary-btn {
+            font-weight: 600;
+            padding: 15px 30px;
+            font-size: 16px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__search">
+            <form action="#">
+               
+                <button type="submit" title="Search"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="offcanvas__logo">
+            <a href="./index.html">
+                <img src="img/logo.jpg" alt="DJ Tease Logo" class="logo-image" style="height: 60px; margin-right: 10px; display: inline-block; vertical-align: middle;">
+                <span style="font-size: 28px; font-weight: 900; color: white; text-decoration: none; display: inline-block; vertical-align: middle;">DJ TEASE</span>
+            </a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="img/logo.jpg" alt="DJ Tease Logo" class="logo-image" style="height: 80px; margin-right: 15px; display: inline-block; vertical-align: middle; background: transparent;">
+                            <span style="font-size: 36px; font-weight: 900; color: white; text-decoration: none; display: inline-block; vertical-align: middle;">DJ TEASE</span>
+                        </a>
+                    </div>
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./episodes.html">Mixes</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4">
+                    <div class="header__right">
+                        <div class="header__right__search">
+                           
+                        </div>
+                        <div class="header__right__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero spad set-bg" data-setbg="img/hero/hero-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero__text">
+                        <h5><span class="icon_calendar"></span> Latest News</h5>
+                        <h1>DJ Tease Blog & Updates</h1>
+                        <a href="#blog-content" class="primary-btn">Read Articles</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Right column intentionally left empty to make space for the background image -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Breadcrumb Section Begin -->
+    <!-- <section class="breadcrumb-option normal-breadcrumb spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h2>Latest Blog</h2>
+                        <div class="breadcrumb__links">
+                            <a href="./index.html"><i class="fa fa-home"></i> Home</a>
+                            <span>Latest Blog</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Breadcrumb Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="blog spad" id="blog-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="blog__item__list">
+                        <div class="blog__item">
+                            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-1.jpg">
+                                <div class="label">Radio</div>
+                            </div>
+                            <div class="blog__item__text">
+                                <div class="blog__date"><span class="icon_calendar"></span> 17 Jun 2020</div>
+                                <h4>Going Wireless With Your Headphones</h4>
+                                <ul>
+                                    <li><span class="icon_profile"></span> Joe Fylan</li>
+                                    <li><span class="fa fa-comments-o"></span> 06 Comments</li>
+                                </ul>
+                                <p>It seems like a good place to start. You might notice there's a bit of a variety, almost as if one lifestyle doesn't fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                <a href="#">Readmore <span class="fa fa-angle-double-right"></span></a>
+                            </div>
+                        </div>
+                        <div class="blog__item">
+                            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-2.jpg">
+                                <div class="label">Radio</div>
+                            </div>
+                            <div class="blog__item__text">
+                                <div class="blog__date"><span class="icon_calendar"></span> 17 Jun 2020</div>
+                                <h4>Impotance Of The Custom Company Logo Design</h4>
+                                <ul>
+                                    <li><span class="icon_profile"></span> Joe Fylan</li>
+                                    <li><span class="fa fa-comments-o"></span> 06 Comments</li>
+                                </ul>
+                                <p>It seems like a good place to start. You might notice there's a bit of a variety, almost as if one lifestyle doesn't fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                <a href="#">Readmore <span class="fa fa-angle-double-right"></span></a>
+                            </div>
+                        </div>
+                        <div class="blog__item">
+                            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-3.jpg">
+                                <div class="label">Radio</div>
+                            </div>
+                            <div class="blog__item__text">
+                                <div class="blog__date"><span class="icon_calendar"></span> 17 Jun 2020</div>
+                                <h4>What Is The Big R For Marketing Your Business</h4>
+                                <ul>
+                                    <li><span class="icon_profile"></span> Joe Fylan</li>
+                                    <li><span class="fa fa-comments-o"></span> 06 Comments</li>
+                                </ul>
+                                <p>It seems like a good place to start. You might notice there's a bit of a variety, almost as if one lifestyle doesn't fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                <a href="#">Readmore <span class="fa fa-angle-double-right"></span></a>
+                            </div>
+                        </div>
+                        <div class="blog__item">
+                            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-4.jpg">
+                                <div class="label">Radio</div>
+                            </div>
+                            <div class="blog__item__text">
+                                <div class="blog__date"><span class="icon_calendar"></span> 17 Jun 2020</div>
+                                <h4>Cleaning And Organizing Your Computer</h4>
+                                <ul>
+                                    <li><span class="icon_profile"></span> Joe Fylan</li>
+                                    <li><span class="fa fa-comments-o"></span> 06 Comments</li>
+                                </ul>
+                                <p>It seems like a good place to start. You might notice there's a bit of a variety, almost as if one lifestyle doesn't fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                <a href="#">Readmore <span class="fa fa-angle-double-right"></span></a>
+                            </div>
+                        </div>
+                        <div class="blog__item">
+                            <div class="blog__item__pic set-bg" data-setbg="img/blog/blog-5.jpg">
+                                <div class="label">Radio</div>
+                            </div>
+                            <div class="blog__item__text">
+                                <div class="blog__date"><span class="icon_calendar"></span> 17 Jun 2020</div>
+                                <h4>Choosing The Best Audio Player Software For Your Computer</h4>
+                                <ul>
+                                    <li><span class="icon_profile"></span> Joe Fylan</li>
+                                    <li><span class="fa fa-comments-o"></span> 06 Comments</li>
+                                </ul>
+                                <p>It seems like a good place to start. You might notice there's a bit of a variety, almost as if one lifestyle doesn't fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                <a href="#">Readmore <span class="fa fa-angle-double-right"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__pagination">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">Next</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <div class="sidebar__search">
+                            <form action="#">
+                                <input type="text" placeholder="Search...">
+                                <button type="submit" title="Search"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="sidebar__categories">
+                            <h4>Categories</h4>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Entrepreneurship</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Media</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Tech</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Tutorials</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Business</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> Entertainment</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar__recent">
+                            <h4>Recent Posts</h4>
+                            <a href="#" class="sidebar__recent__item">
+                                <h6>Episode 02: How To Boost Your Traffic Of Your Blog</h6>
+                                <p><span class="icon_calendar"></span> 03 Sep 2020</p>
+                            </a>
+                            <a href="#" class="sidebar__recent__item">
+                                <h6>Episode 02: Using Banner Stands To Increase Trade Show Traffic</h6>
+                                <p><span class="icon_calendar"></span> 03 Sep 2020</p>
+                            </a>
+                            <a href="#" class="sidebar__recent__item">
+                                <h6>Episode 02: What Is The Big R For Marketing Your Business</h6>
+                                <p><span class="icon_calendar"></span> 03 Sep 2020</p>
+                            </a>
+                            <a href="#" class="sidebar__recent__item">
+                                <h6>Episode 02: Enhance Your Brand Potential With Giant Advertising</h6>
+                                <p><span class="icon_calendar"></span> 03 Sep 2020</p>
+                            </a>
+                        </div>
+                        <div class="sidebar__banner set-bg" data-setbg="img/episodes-single/sidebar-banner.jpg">
+                            <span>THE BEST Theme</span>
+                            <h2>Podcast</h2>
+                        </div>
+                        <div class="sidebar__tags">
+                            <h4>Popular Tags</h4>
+                            <a href="#">Episodes</a>
+                            <a href="#">Ideas</a>
+                            <a href="#">Podcasts</a>
+                            <a href="#">Video</a>
+                            <a href="#">Creative</a>
+                            <a href="#">Unique</a>
+                            <a href="#">Audio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Call To Action Section Begin -->
+    <section class="callto spad set-bg" data-setbg="img/breadcrumb-bg.png" style="background-position: center center; position: relative;">
+        <div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.4);"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="callto__text" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+                        <h2 style="font-weight: 700; color: white; margin-bottom: 20px;">Book DJ Tease For Your Event</h2>
+                        <p style="font-size: 18px; color: white; max-width: 800px; margin: 0 auto 30px;">Looking for a trailblazing DJ known for electrifying Amapiano and Afro-house sets? Let DJ Tease bring his unforgettable stage presence to your next event!</p>
+                        <a href="./contact.html" class="primary-btn" style="font-weight: 600; padding: 15px 30px; font-size: 16px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="footer__subscriber">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="footer__subscriber__text">
+                            <h3>Sign up for DJ Tease updates!</h3>
+                            <p>Subscribe to receive info on latest mixes, events, and exclusive content</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-2">
+                        <form action="#" class="footer__subscriber__form">
+                            <input type="text" placeholder="Your email address">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 col-md-9">
+                    <div class="footer__widget">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/logo.jpg" alt=""></a>
+                        </div>
+                        <p class="footer__copyright__text">Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | DJ Tease. Website by <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="footer__social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Music Plugin -->
+    <script src="js/jquery.jplayer.min.js"></script>
+    <script src="js/jplayerInit.js"></script>
+</body>
+
+</html>
